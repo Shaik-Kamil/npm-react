@@ -1,6 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { people } from './people';
+import sayHello from './sayHello';
+import { colors, flavors } from './colors';
 
+// console.log(people);
+// console.log(sayHello);
+// console.log(colors[0].name);
+console.log(flavors[0]);
+
+// people.forEach((person) => {
+//   sayHello(person);
+// });
+
+// people.forEach(sayHello);
 function App() {
   return (
     <div className="App">
